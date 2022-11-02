@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'movielist_page.dart';
 
-const photoUrl = 'https://blog.logrocket.com/wp-content/uploads/2022/02/Best-IDEs-Flutter-2022.png';
-
 void main() {
   runApp(MyApp());
 }

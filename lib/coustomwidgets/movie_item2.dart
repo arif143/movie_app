@@ -51,10 +51,14 @@ class MovieItem2 extends StatelessWidget {
                   bottom: 10,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.deepPurpleAccent
+                      backgroundColor: Colors.deepPurpleAccent
                     ),
                     child: Text('Details'),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(context, MaterialPageRoute(
+                          builder: (context) => MovieDetailsPage(movie: movie,)
+                      ));
+                    },
                   ),
                 ),
                 Positioned(
